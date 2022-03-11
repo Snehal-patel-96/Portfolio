@@ -468,8 +468,27 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (min-width: 1124px) {
+  .container {
+    max-width: 1124px;
+  }
+}
+
 .visible {
   visibility: visible;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .block {
@@ -500,17 +519,36 @@ Ensure the default browser behavior of the `hidden` attribute.
   resize: both;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
 .border {
   border-width: 1px;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.font-bold {
-  font-weight: 700;
+.bg-\[\#222831\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 40 49 / var(--tw-bg-opacity));
+}
+
+.font-Poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.text-\[\#eee\] {
+  --tw-text-opacity: 1;
+  color: rgb(238 238 238 / var(--tw-text-opacity));
+}
+
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(0 173 181 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -521,3 +559,5 @@ Ensure the default browser behavior of the `hidden` attribute.
 .outline {
   outline-style: solid;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
