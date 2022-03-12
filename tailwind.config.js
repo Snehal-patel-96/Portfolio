@@ -6,11 +6,11 @@ module.exports = {
         primary: '#00ADB5',
         secondary: '#393E46',
         'font-color': '#eee',
-        baclground: '#222831',
+        background: '#222831',
       },
     },
     fontFamily: {
-      Poppins: ['"Poppins"', 'sans-serif'],
+      Nunito: ['"Nunito"', 'sans-serif'],
     },
     container: {
       center: true,

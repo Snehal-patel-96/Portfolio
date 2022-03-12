@@ -8,9 +8,28 @@
     <link rel="stylesheet" href="tailwind.css" />
   </head>
   <!-- 1. #222831 2. #393E46 3. #00ADB5 4. #eee -->
-  <body class="bg-[#222831] text-[#eee] font-Poppins">
-    <header class="">
-      <nav class="container border-2 border-white">testing</nav>
+  <body class="bg-background font-Nunito">
+    <header>
+      <nav
+        class="container border-2 border-white flex items-center py-4 mt-4 sm:mt-10"
+      >
+        <div class="py-1 uppercase text-font-color">snehal patel</div>
+        <ul
+          class="hidden sm:flex flex-1 justify-end items-center gap-12 text-primary uppercase text-sm"
+        >
+          <li class="cursor-pointer tracking-wide font-medium">projects</li>
+          <li class="cursor-pointer tracking-wide">about</li>
+          <li class="cursor-pointer tracking-wide">contact</li>
+        </ul>
+
+        <div class="flex flex-1 sm:flex-none justify-end">
+          <div class="space-y-2 sm:hidden">
+            <span class="block w-8 h-0.5 bg-gray-600"></span>
+            <span class="block w-8 h-0.5 bg-gray-600"></span>
+            <span class="block w-5 h-0.5 bg-gray-600"></span>
+          </div>
+        </div>
+      </nav>
     </header>
   </body>
 </html>
