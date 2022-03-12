@@ -17,7 +17,8 @@
         <ul
           class="hidden sm:flex flex-1 justify-end items-center gap-12 text-primary uppercase text-sm"
         >
-          <li class="cursor-pointer tracking-wide font-medium">projects</li>
+          <li class="cursor-pointer tracking-wide">Home</li>
+          <li class="cursor-pointer tracking-wide">projects</li>
           <li class="cursor-pointer tracking-wide">about</li>
           <li class="cursor-pointer tracking-wide">contact</li>
         </ul>
@@ -31,5 +32,40 @@
         </div>
       </nav>
     </header>
+
+    <!-- Hero Section -->
+    <section class="relative">
+      <div
+        class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28"
+      >
+        <!-- Content -->
+        <div class="flex flex-1 flex-col items-center lg:items-start">
+          <h2
+            class="text-primary text-3xl md:text-4 lg:text-5xl text-center lg:text-left font-medium mb-6 leading-8 lg:leading-tight tracking-wide uppercase"
+          >
+            Passion,<br />
+            Dedication, and<br />
+            a lot of coffee.<br />
+          </h2>
+          <p
+            class="text-font-color text-lg text-center lg:text-left mb-6 uppercase"
+          >
+            front end web developer
+          </p>
+          <div class="flex justify-center flex-wrap gap-6">
+            <button type="button" class="btn btn-primary">Projects</button>
+          </div>
+        </div>
+
+        <!-- Image -->
+        <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+          <img
+            class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-4/5 md:h-4/5"
+            src="./imgs/hero.png"
+            alt="Hero Section Image"
+          />
+        </div>
+      </div>
+    </section>
   </body>
 </html>

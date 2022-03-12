@@ -3,3 +3,15 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap');
+
+.btn {
+  @apply shadow-md py-3 px-6;
+}
+
+.btn-primary {
+  @apply bg-primary text-font-color font-medium uppercase tracking-wide  hover:rounded-bl-3xl hover:rounded-tr-3xl hover:rounded-tl-3xl hover:rounded-br-none transition-all ease-in-out duration-300;
+}
+
+.btn-white {
+  @apply bg-font-color text-primary;
+}
